@@ -9,14 +9,19 @@
  + 
  +
  +Sometimes it is helpful to dig in to the details to understand an abstraction, to make sure the abstraction is correct, or to find vulnerabilities that need to be closed.
- +For each of the following abstractions, read the summary of the abstraction. Note that parameters are listed in parentheses after the name of a procedure. Then read the code that implements the abstraction. Identify some of the details that are abstracted away. What details are left out of the summary that a programmer doesn't need to worry about when calling the procedure?
+ +For each of the following abstractions, read the summary of the abstraction. Note that parameters are listed in parentheses after the name of a procedure.
+ Then read the code that implements the abstraction. Identify some of the details that are abstracted away.
+ What details are left out of the summary that a programmer doesn't need to worry about when calling the procedure?
  +
  +The reset_sprite(sprite) procedure moves the sprite to a random location at the top of the screen and resets the image size.
  +What details are abstracted away?
  +
  +121aresetsprite.PNG
  +
- +This answer is provided as an example: When calling the reset_sprite procedure, the programmer doesn't have to worry about details that the name of the procedure reset_sprite(sprite) abstracts. The programmer doesn't have to worry about the fact that the height and width will be reset based on the number of pixels given by the global variable initial_sprite_size. The programmer also doesn't have to worry about how the procedure is setting the new x-coordinate randomly at the top of the screen. The programmer doesn't have to worry about the fact that the leftmost pixel possible has x=0 or that the rightmost pixel possible is the canvas width minus the sprite size.
+ +This answer is provided as an example: When calling the reset_sprite procedure, the programmer doesn't have to worry about details that the name of the procedure reset_sprite(sprite) abstracts.
+ The programmer doesn't have to worry about the fact that the height and width will be reset based on the number of pixels given by the global variable initial_sprite_size. 
+ The programmer also doesn't have to worry about how the procedure is setting the new x-coordinate randomly at the top of the screen.
+ The programmer doesn't have to worry about the fact that the leftmost pixel possible has x=0 or that the rightmost pixel possible is the canvas width minus the sprite size.
  +The handle_edge(sprite, edge) procedure takes an appropriate action for a sprite that has collided with the left, right, or bottom edges. Left and right edges wrap to the other side; the bottom edge resets the sprite at the top.
  +What details are abstracted?
  +
