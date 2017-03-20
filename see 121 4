@@ -1,0 +1,63 @@
+Good code comes with documentation that summarizes the action of procedures. Why do you think it is important for programmers to provide high-level documentation of their code?
+ +Part III: Relate position, velocity, acceleration, and gravity
+ +
+ +Mobile computers usually contain a device to measure acceleration. That device is called an accelerometer*. The bouquet program uses the accelerometer to fly the hummingbird based on the tilt of the tablet.
+ +What is the difference between speed* (a scalar*) and velocity* (a vector*)?
+ +What is the difference between velocity and acceleration*?
+ +The figure below shows a tablet laying flat on a desk and shows the orientation of the standard positive x-, y-, and z-axes used in mathematics. (Note: The standard mathematics axes are different than the graphics axes of the tablet.
+ The math axes have y increasing as you go up the page in two dimension or away from you in three dimensions. The tablet graphics are only two dimensions, have a fixed origin at the upper left corner of the window, and have larger y coordinates further down the tablet screen.)
+ Suppose you pick up the tablet and the accelerometer reports acceleration in the positive y and z directions and in the negative x direction. Demonstrate the direction of the acceleration to your partner by pretending you are picking up a tablet from your desk.
+ +121 q11c tablet coordinates xyz.PNG
+ +
+ +Run the program acceleration_demo (either AIA or APK) on your tablet. You should see a green circle centered on a bullseye. The x-, y-, and z-components of acceleration are reported on screen. The x- and y-components are shown as pink lines. 
+ The z-component is shown as a filled green or red circle. Green indicates z-acceleration toward the screen; red indicates z-acceleration toward the back face. Describe the appearance of the filled circle and the pink lines for each of six positions on the tablet. 
+ The first two are done for you.
+ +Screen facing up: When laying on the table, the tablet sensor feels like it is in a rocket ship accelerating 10 m/s2 upward. We see… a green circle of radius 10.
+ +Standing on left edge: When standing on the left edge, the tablet sensor feels like it is in a rocket ship accelerating 10 m/s2 upward. We see… a pink line of length 10 pointing to the right of the tablet.
+ +Standing on right edge: When standing on the table, the tablet sensor feels like it is in a rocket ship accelerating 10 m/s2 upward. We see…
+ +Standing on bottom edge: When standing on the table, the tablet sensor feels like it is in a rocket ship accelerating 10 m/s2 upward. We see…
+ +Standing on top edge: When standing on the table, the tablet sensor feels like it is in a rocket ship accelerating 10 m/s2 upward. We see…
+ +Screen facing down: When laying on the table, the tablet sensor feels like it is in a rocket ship accelerating 10 m/s2 upward. We see…
+ +No matter which way I hold the tablet, if tablet is not accelerating, the total acceleration reported is _______ m/s2.
+ +
+ +The acceleration of any object in freefall* near Earth’s surface is 9.8 m/s2 downward, a quantity known as g*. Using the rounded value of 10 m/s2, fill in the table with the velocities of a ball after it is thrown 20 m/s upward.
+ + 
+ +
+ +Seconds after being thrown
+ +
+ +Velocity
+ +
+ +0 seconds
+ +
+ +20 m/s upward
+ +
+ +1 second
+ +
+ + 
+ +
+ +2 seconds
+ +
+ + 
+ +
+ +3 seconds
+ +
+ + 
+ +
+ +Accelerating in one direction feels identical to being pulled by gravity in the opposite direction. 
+ In theory, a rocket ship could make passengers feel like they were on Earth by steadily accelerating away from the “ground” 10 m/s2. 
+ For example, a rocket ship could accelerate toward a distant star for the first half of the trip, rotate 180° when it was halfway to the star, and decelerate during the last half of the trip.
+ The following diagrams show the rocket ship during the first half of the trip and the last half of the trip, respectively.
+ 
+ +121 q12 rocket rotates.png
+ +
+ +Draw an arrow to show the direction of the 10 m/s2 acceleration vector during the two halves of the trip.
+ +Describe what is happening to the speed of an object when velocity and acceleration are in the same direction and what is happening to the speed of an object when these two vectors are in opposite directions.
+ +In the following figure, the tablet has been tilted up from the table, with its left edge still touching the table. 
+ Gravity still pulls straight down, and the accelerometer reports perceived acceleration up away from Earth.
+ For the accelerometer device, this is to the right of the tablet (x) and out of the front face of the tablet (z).
+ The green dotted arrows show how the x component and the z component of the vector add up to the perceived acceleration. 
+ The length of the arrows is the magnitude of the measurement.
+ +Based on the length of the arrow representing 10 m/s2, estimate the lengths of the x and z acceleration arrows.
+ +
+ +121 q14 titled tablet xz.PNG121 q14 vector diagram.PNG
+ 
