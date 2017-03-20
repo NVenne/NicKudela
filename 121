@@ -1,0 +1,59 @@
+Use velocity with Cartesian x- and y-coordinates
+ +Describe the purpose and concept of abstracting a procedure
+ +Introduce lists and iteration across lists
+ +Describe the role of argument values and return values
+ + 
+ +
+ +Introduction
+ +
+ +How does animation work? Images can appear to glide across the surface of a painting canvas on the screen. In reality, the screen's image changes discretely, approximately every 30 milliseconds. What is really happening every time the screen is drawn?
+ +
+ +In this activity, you will play a game as part of a usability study, in which developers observe users using a program. You will adopt the game as a development team, create a plan to improve it, and complete one sprint.
+ +
+ +The principles of game development can be applied to any game. What is a game you'd like to create?
+ +
+ +Games can be used to simulate real situations, like birds and bees pollinating flowers. By playing with a simulation, the user can learn about the system being modeled. What is there to learn about birds, bees, and pollination? What is another real situation you might be interested in exploring with a simulation?
+ +
+ +Computer programs can have millions of lines of code. This activity's game is only about 100 lines long. On average, a line of computer programming code gets written once and then read by an average of seven people trying to maintain and improve it. What do you suppose you look for first when you start exploring the code of someone else's computer program?
+ +
+ +121a.png
+ +
+ + 
+ +
+ +Materials
+ +
+ +Computer with browser
+ +Android device with AI Companion
+ +Google ID
+ +1.2.1 sourceFiles.zip
+ + 
+ +
+ +Procedure
+ +
+ +Form pairs as directed by your teacher. Meet or greet each other to practice professional skills. Set team norms.
+ +Part I: Explore the program
+ +
+ +In your pair, choose one person to be a test user. The other person will play the role of a developer conducting a usability study. Follow the instruction for your role below for 120 seconds. Then switch roles.
+ +Test user: Play bouquet_v1.apk on your Android device. Describe the app's behavior.
+ +Developer: Observe the user using the app. Record your observations.
+ +Which elements of the user interface do they use?
+ +Do they stumble over any element of the user interface?
+ +Did it ever look like they expected one thing to happen while interacting with the interface, but the app didn't respond the way they expected?
+ +An app should suit its purpose. As a game, how well did the app engage the user?
+ +By discussing as a class, identify any additional functionality the app has that you didn't record earlier in step 2a.
+ +What is a usability study? Why do you think it is important? When do you think it should occur in the development cycle?
+ +Now, all team members will be developers. With your partner, create a product backlog for Bouquet. Brainstorm features that a user might want and why. Later, you will pick one of the backlog items and break that item down into tasks for a sprint task list. Your teacher might have the class share ideas.
+ +To get ready to modify the program, examine a high-level description of the program. This description will be provided by your teacher in person or in a document, presentation, or video.
+ +Each stack of App Inventor blocks provides the code for one event handler or for one procedure. These stacks provide chunks of functionality. What are the major chunks of functionality in this program?
+ +
+ +Part II: Identify and explain abstractions
+ +
+ +A primary purpose of this activity is to understand abstraction. Abstraction is a strategy for handling complexity. An abstraction generalizes something by removing details.
+ +
+ +Abstraction helps us solve complex problems. We break apart a big, complex problem into pieces. We solve the small problems, one at a time. We abstract our solutions to the small problems by giving a solution a name. This kind of abstraction is called a procedure or a function, depending on whether it returns a result. By giving that solution a name, we can refer to it to help solve a bigger problems.
+ +
+ +The bouquet program creates several abstractions. A programmer can call upon the abstraction by name without worrying about the details implemented in the code. If the procedure depends on some value that might change, we can use a parameter to pass that value to the procedure.
+ When the procedure is called, that parameter becomes a local variable that can only be used inside the procedure because that is the scope of the variable.
+ Practice using the vocabulary based on the pictures of the blocks, using the following example.
+ 
+ 
