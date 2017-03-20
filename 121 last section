@@ -1,0 +1,36 @@
++Part IV: Identify a user story and create the solution
+ +
+ +Prioritize your backlog so that one or two items you want to work on first are at the top. You might want to refine the top one or two items to be more precise and manageable in the amount of work required to complete them. This is called grooming the backlog. Your teacher might have the class share ideas and select distinct features to work on.
+ +Break the top item or two from the backlog into tasks for a sprint task list.
+ +Prepare to develop the task at the top of your sprint task list.
+ +Authenticate to Google and open the App Inventor 2 development environment in a web browser. Upload the bouquet_v1.AIA file into App Inventor.
+ +You will keep bouquet_v1.AIA as a record of the version you started with, and work on the next version with your improvements. Select Projects > Save project as... and save as bouquet_v2 in a location specified by your teacher.
+ +Discuss and record your plan for accomplishing the first task. Use your engineering notebook or other project documentation as directed by your teacher.
+ +Develop the task at the top of your sprint task list.
+ +So that you can test as you code, launch the AI2 Companion app on your Android device. Connect to the device using Connect > AI Companion.
+ +Decide who will begin as driver and who will begin as navigator. As you work to accomplish the first sprint task, the driver should think out loud and the navigator should provide ideas and ask questions. Switch driver/navigator roles frequently.
+ +As you develop, take the time to record problems you encounter, ideas you tried, results you observed, and reasons why you think an idea doesn't work when you thought it would. A Word document with screenshots of code works well for this purpose.
+ +When you accomplish a task, save the bouquet_v2.AIA version of your program as described in the following step.
+ +To document your development process, save intermediate versions following these steps.
+ +Save the program in the App Inventor website. You won't work on this version any more.
+ +Download the AIA file using Projects > Export the selected project (.aia) to my computer. Save this file in the location specified by your teacher. It documents the progress you made at this stage of development.
+ +In App Inventor, select Projects > Save project as and then use a new name, for example, bouquet_v3.
+ +Continue development using this new version.
+ +In your engineering notebook (or other project documentation as directed by your teacher), record a sentence with each small accomplishment as you develop. After 30 to 60 minutes of progress, download the version the you have created and append a version number to file name you downloaded. Summarize the improvement alongside the name of the AIA file containing the version number.
+ +Repeat steps a through e as many times as needed. End on step c so that, for example, you have documented and downloaded bouquet_v5.AIA and have moved on to bouquet_v6.
+ +Submit the following as directed by your teacher:
+ +Deliverable version of the program at the end of your sprint. Your teacher might direct you to install an APK of your app on one tablet passed around to all the teams.
+ +Project documentation describing your development process
+ +Present your team's work to one or more other teams as directed by your teacher.
+ +*Physics Key Terms
+ +
+ +Term	Definition
+ +accelerometer	A device that measures how quickly an object’s velocity is changing
+ +acceleration	The rate at which an object’s velocity is changing
+ +component	A component of a vector is a piece of a vector pointing in a particular direction
+ +freefall	The motion of an object experiencing only gravity—no propulsion, lift, or air resistance
+ +g	The acceleration of an object in freefall near earth’s surface, 9.8 m/s2. The symbol g is used for this quantity in physics formulas, and accelerations are sometimes described in multiples of g, such as “pulling 3g’s”.
+ +scalar	A quantity that has no direction. Compare vector.
+ +speed	The rate at which an object’s position is changing, either at an instant or on average during an interval of time
+ +vector	A quantity that has both an amount and a direction; the opposite of a scalar. A positive or negative sign shows direction in one dimension.
+ +velocity	The combination of an object’s and direction
